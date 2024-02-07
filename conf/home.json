@@ -1,0 +1,184 @@
+{
+    "baseURL": "https://staging.escape.ai",
+    "testImage": "https://picsum.photos/id/*id*/*width*/*height*.jpg",
+    "placeholderImage": "https://picsum.photos/id/*id*/*width*/*height*.jpg",
+    "carousel": {
+        "defaultItems": [
+            {
+                "title": "Django Unchained",
+                "subTitle": "Life, liberty and the pursuit of vengeance",
+                "description": "With the help of a German bounty hunter, a freed slave sets out to rescue his wife from a brutal Mississippi plantation owner.",
+                "image": "https://media.themoviedb.org/t/p/w600_and_h900_bestv2/7oWY8VDWW7thTzWh3OKYRkWUlD5.jpg",
+                "video": "http://qthttp.apple.com.edgesuite.net/1010qwoeiuryfg/sl.m3u8"
+            },
+            {
+                "title": "SubTitle 2",
+                "subTitle": "SubTitle 2",
+                "image": "https://picsum.photos/id/*id*/*width*/*height*.jpg",
+                "video": ""
+            },
+            {
+                "title": "SubTitle 3",
+                "subTitle": "SubTitle 3",
+                "image": "https://picsum.photos/id/*id*/*width*/*height*.jpg",
+                "video": "https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_30mb.mp4"
+            }
+        ],
+        "filterToGetContent": "{\"isTop\": true}",
+        "heightPercentage": "40",
+        "path": "/media/post"
+    },
+    "sections": [
+        {
+            "title": "Featured",
+            "description": "Discover our most popular content",
+            "defaultItems": [
+                {
+                    "image": "https://www.imdb.com/title/tt0468569/mediaviewer/rm4023877632/?ref_=tt_ov_i",
+                    "title": "Spirited Away",
+                    "subtitle": "2001",
+                    "description": "Spirited Away is a 2001 Japanese animated fantasy adventure film written and directed by Hayao Miyazaki and animated by Hayao Miyazaki."
+                },
+                {
+                    "image": "https://picsum.photos/id/*id*/*width*/*height*.jpg",
+                    "title": "Spirited Away",
+                    "subtitle": "2001",
+                    "description": "Spirited Away is a 2001 Japanese animated fantasy adventure film written and directed by Hayao Miyazaki and animated by Hayao Miyazaki."
+                },
+                {
+                    "image": "https://m.media-amazon.com/images/M/MV5BMTIzMDc4MzA2Ml5BMl5BanBnXkFtZTcwODU0MzA3MQ@@._V1_FMjpg_UX510_.jpg",
+                    "title": "Spirited Away",
+                    "subtitle": "2001",
+                    "description": "Spirited Away is a 2001 Japanese animated fantasy adventure film written and directed by Hayao Miyazaki and animated by Hayao Miyazaki."
+                }
+            ],
+            "filterToGetContent": "{\"posters.0\": { \"$exists\": true }}",
+            "posterRatio": "9*16",
+            "path": "/media/post"
+        },
+        {
+            "title": "Popular",
+            "description": "Discover our most popular content",
+            "defaultItems": [
+                {
+                    "image": "https://www.imdb.com/title/tt0468569/mediaviewer/rm4023877632/?ref_=tt_ov_i",
+                    "title": "Spirited Away",
+                    "subtitle": "2001",
+                    "description": "Spirited Away is a 2001 Japanese animated fantasy adventure film written and directed by Hayao Miyazaki and animated by Hayao Miyazaki."
+                },
+                {
+                    "image": "https://picsum.photos/id/*id*/*width*/*height*.jpg",
+                    "title": "Spirited Away",
+                    "subtitle": "2001",
+                    "description": "Spirited Away is a 2001 Japanese animated fantasy adventure film written and directed by Hayao Miyazaki and animated by Hayao Miyazaki."
+                },
+                {
+                    "image": "https://m.media-amazon.com/images/M/MV5BMTIzMDc4MzA2Ml5BMl5BanBnXkFtZTcwODU0MzA3MQ@@._V1_FMjpg_UX510_.jpg",
+                    "title": "Spirited Away",
+                    "subtitle": "2001",
+                    "description": "Spirited Away is a 2001 Japanese animated fantasy adventure film written and directed by Hayao Miyazaki and animated by Hayao Miyazaki."
+                }
+            ],
+            "filterToGetContent": "{\"type\": {\"$ne\": \"external-link\"}, \"isPopular\": true}",
+            "posterRatio": "16*9",
+            "path": "/media/post"
+        },
+        {
+            "title": "New",
+            "description": "Discover our most popular content",
+            "defaultItems": [
+                {
+                    "image": "https://www.imdb.com/title/tt0468569/mediaviewer/rm4023877632/?ref_=tt_ov_i",
+                    "title": "Spirited Away",
+                    "subtitle": "2001",
+                    "description": "Spirited Away is a 2001 Japanese animated fantasy adventure film written and directed by Hayao Miyazaki and animated by Hayao Miyazaki."
+                },
+                {
+                    "image": "https://picsum.photos/id/*id*/*width*/*height*.jpg",
+                    "title": "Spirited Away",
+                    "subtitle": "2001",
+                    "description": "Spirited Away is a 2001 Japanese animated fantasy adventure film written and directed by Hayao Miyazaki and animated by Hayao Miyazaki."
+                },
+                {
+                    "image": "https://m.media-amazon.com/images/M/MV5BMTIzMDc4MzA2Ml5BMl5BanBnXkFtZTcwODU0MzA3MQ@@._V1_FMjpg_UX510_.jpg",
+                    "title": "Spirited Away",
+                    "subtitle": "2001",
+                    "description": "Spirited Away is a 2001 Japanese animated fantasy adventure film written and directed by Hayao Miyazaki and animated by Hayao Miyazaki."
+                }
+            ],
+            "filterToGetContent": "{\"type\": {\"$ne\": \"external-link\"}, \"isNew\": true}",
+            "posterRatio": "16*9",
+            "path": "/media/post"
+        }
+    ],
+    "creator": {
+        "title": "Creators",
+        "subTitle": "Discover more videos from creators",
+        "defaultItems": [
+            {
+                "image": "https://www.imdb.com/title/tt0468569/mediaviewer/rm4023877632/?ref_=tt_ov_i",
+                "title": "Spirited Away",
+                "subtitle": "2001",
+                "description": "Spirited Away is a 2001 Japanese animated fantasy adventure film written and directed by Hayao Miyazaki and animated by Hayao Miyazaki."
+            },
+            {
+                "image": "https://picsum.photos/id/*id*/*width*/*height*.jpg",
+                "title": "Spirited Away",
+                "subtitle": "2001",
+                "description": "Spirited Away is a 2001 Japanese animated fantasy adventure film written and directed by Hayao Miyazaki and animated by Hayao Miyazaki."
+            },
+            {
+                "image": "https://m.media-amazon.com/images/M/MV5BMTIzMDc4MzA2Ml5BMl5BanBnXkFtZTcwODU0MzA3MQ@@._V1_FMjpg_UX510_.jpg",
+                "title": "Spirited Away",
+                "subtitle": "2001",
+                "description": "Spirited Away is a 2001 Japanese animated fantasy adventure film written and directed by Hayao Miyazaki and animated by Hayao Miyazaki."
+            }
+        ],
+        "posterRatio": "16*9",
+        "filterToGetContent": "{\"creator\": true}",
+        "path": "/users"
+    },
+    "category": [
+        {
+            "title": "Action",
+            "imageURL": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_2048/sources/r1/cms/prod/5302/1535302-a-e90748391e0d"
+        },
+        {
+            "title": "Comedy",
+            "imageURL": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_2048/sources/r1/cms/prod/5292/1535292-a-5739f9c84b63"
+        },
+        {
+            "title": "Romance",
+            "imageURL": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_2048/sources/r1/cms/prod/5262/1535262-a-fbabfaf1176e"
+        },
+        {
+            "title": "Category 4",
+            "imageURL": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_2048/sources/r1/cms/prod/5279/1535279-a-c92b487cb711"
+        },
+        {
+            "title": "Category 5",
+            "imageURL": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_2048/sources/r1/cms/prod/5279/1535279-a-c92b487cb711"
+        },
+        {
+            "title": "Category 6",
+            "imageURL": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_2048/sources/r1/cms/prod/5279/1535279-a-c92b487cb711"
+        },
+        {
+            "title": "Category 7",
+            "imageURL": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_2048/sources/r1/cms/prod/5279/1535279-a-c92b487cb711"
+        },
+        {
+            "title": "Category 8",
+            "imageURL": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_2048/sources/r1/cms/prod/5279/1535279-a-c92b487cb711"
+        },
+        {
+            "title": "Category 9",
+            "imageURL": "https://example.com/image3.jpg"
+        },
+        {
+            "title": "Category 10",
+            "imageURL": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_2048/sources/r1/cms/prod/5279/1535279-a-c92b487cb711"
+        }
+    ]
+}
+
