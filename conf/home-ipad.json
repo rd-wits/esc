@@ -1,1 +1,97 @@
+{
+    "baseURL": "https://staging.escape.ai",
+    "testImage": "https://picsum.photos/id/*id*/*width*/*height*.jpg",
+    "placeholderImage": "https://picsum.photos/id/*id*/*width*/*height*.jpg",
+    "carousel": {
+        "defaultItems": [
+        ],
+        "filterToGetContent": "{\"isTop\": true}",
+        "heightPercentage": "40",
+        "path": "/api/media/post"
+    },
+    "sections": [
+        {
+            "title": "Featured",
+            "description": "Discover our most popular content",
+            "defaultItems": [
+            
+            ],
+            "filterToGetContent": "{\"posters.0\": { \"$exists\": true }}",
+            "posterRatio": "9*16",
+            "path": "/api/media/post"
+        },
+        {
+            "title": "Popular",
+            "description": "Discover our most popular content",
+            "defaultItems": [
+            
+            ],
+            "filterToGetContent": "{\"type\": {\"$ne\": \"external-link\"}, \"isPopular\": true}",
+            "posterRatio": "16*9",
+            "path": "/api/media/post"
+        },
+        {
+            "title": "New",
+            "description": "Discover our most popular content",
+            "defaultItems": [
+            
+            ],
+            "filterToGetContent": "{\"type\": {\"$ne\": \"external-link\"}, \"isNew\": true}",
+            "posterRatio": "16*9",
+            "path": "/api/media/post"
+        }
+    ],
+    "creator": {
+        "title": "Creators",
+        "subTitle": "Discover more videos from creators",
+        "defaultItems": [
+        
+        ],
+        "posterRatio": "16*9",
+        "filterToGetContent": "{\"creator\": true}",
+        "path": "/api/users"
+    },
+    "category": [
+        {
+            "title": "Action",
+            "imageURL": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_2048/sources/r1/cms/prod/5302/1535302-a-e90748391e0d"
+        },
+        {
+            "title": "Comedy",
+            "imageURL": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_2048/sources/r1/cms/prod/5292/1535292-a-5739f9c84b63"
+        },
+        {
+            "title": "Romance",
+            "imageURL": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_2048/sources/r1/cms/prod/5262/1535262-a-fbabfaf1176e"
+        },
+        {
+            "title": "Category 4",
+            "imageURL": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_2048/sources/r1/cms/prod/5279/1535279-a-c92b487cb711"
+        },
+        {
+            "title": "Category 5",
+            "imageURL": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_2048/sources/r1/cms/prod/5279/1535279-a-c92b487cb711"
+        },
+        {
+            "title": "Category 6",
+            "imageURL": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_2048/sources/r1/cms/prod/5279/1535279-a-c92b487cb711"
+        },
+        {
+            "title": "Category 7",
+            "imageURL": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_2048/sources/r1/cms/prod/5279/1535279-a-c92b487cb711"
+        },
+        {
+            "title": "Category 8",
+            "imageURL": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_2048/sources/r1/cms/prod/5279/1535279-a-c92b487cb711"
+        },
+        {
+            "title": "Category 9",
+            "imageURL": "https://example.com/image3.jpg"
+        },
+        {
+            "title": "Category 10",
+            "imageURL": "https://img10.hotstar.com/image/upload/f_auto,q_90,w_2048/sources/r1/cms/prod/5279/1535279-a-c92b487cb711"
+        }
+    ]
+}
 
