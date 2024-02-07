@@ -7,7 +7,7 @@
         ],
         "filterToGetContent": "{\"isTop\": true}",
         "heightPercentage": "40",
-        "path": "/media/post"
+        "path": "/api/media/post"
     },
     "sections": [
         {
@@ -18,7 +18,7 @@
             ],
             "filterToGetContent": "{\"posters.0\": { \"$exists\": true }}",
             "posterRatio": "9*16",
-            "path": "/media/post"
+            "path": "/api/media/post"
         },
         {
             "title": "Popular",
@@ -28,7 +28,7 @@
             ],
             "filterToGetContent": "{\"type\": {\"$ne\": \"external-link\"}, \"isPopular\": true}",
             "posterRatio": "16*9",
-            "path": "/media/post"
+            "path": "/api/media/post"
         },
         {
             "title": "New",
@@ -38,7 +38,7 @@
             ],
             "filterToGetContent": "{\"type\": {\"$ne\": \"external-link\"}, \"isNew\": true}",
             "posterRatio": "16*9",
-            "path": "/media/post"
+            "path": "/api/media/post"
         }
     ],
     "creator": {
@@ -49,7 +49,7 @@
         ],
         "posterRatio": "16*9",
         "filterToGetContent": "{\"creator\": true}",
-        "path": "/users"
+        "path": "/api/users"
     },
     "category": [
         {
