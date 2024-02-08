@@ -48,7 +48,7 @@
         
         ],
         "posterRatio": "16*9",
-        "filterToGetContent": "{\"creator\": true}",
+        "filterToGetContent": "",
         "path": "/api/users"
     },
     "category": [
