@@ -6,6 +6,7 @@
     "termsURL": "/terms",
     "privacyURL": "/privacy-policy",
     "supportURL": "/support",
+    "dateFormatter": "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'",
     "carousel": {
         "iphoneItems": ["https://customer-cm6j1xwjvhbjg990.cloudflarestream.com/0fab3010ccf975ec71948d95525ba2b5/manifest/video.m3u8"],
         "ipadItems": ["https://customer-cm6j1xwjvhbjg990.cloudflarestream.com/0fab3010ccf975ec71948d95525ba2b5/manifest/video.m3u8"]
