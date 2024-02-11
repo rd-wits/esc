@@ -28,7 +28,7 @@
             "defaultItems": [
             
             ],
-            "filterToGetContent": "{\"type\": {\"$ne\": \"external-link\"}, \"isPopular\": true}",
+            "filterToGetContent": "{\"isPopular\": true}",
             "posterRatio": "16*9",
             "path": "/api/media/post"
         },
@@ -38,7 +38,7 @@
             "defaultItems": [
             
             ],
-            "filterToGetContent": "{\"type\": {\"$ne\": \"external-link\"}, \"isNew\": true}",
+            "filterToGetContent": "{\"isNew\": true}",
             "posterRatio": "16*9",
             "path": "/api/media/post"
         }
