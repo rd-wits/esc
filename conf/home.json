@@ -1,5 +1,7 @@
 {
     "baseURL": "https://staging.escape.ai",
+    "imageTemplateURL": "https://imagedelivery.net/7qyuR97mJsfu3i26OrYcjw/*content-id*/public",
+    "videoTemplateURL": "https://customer-cm6j1xwjvhbjg990.cloudflarestream.com/*content-id*/manifest/video.m3u8",
     "testImage": "https://picsum.photos/id/*id*/*width*/*height*.jpg",
     "placeholderImage": "https://picsum.photos/id/*id*/*width*/*height*.jpg",
     "filterForCategory": "\"categories\": { \"$all\": [\"*category-name*\"] }",
