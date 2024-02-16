@@ -56,5 +56,5 @@
         "posterRatio": "16*9",
         "filterToGetContent": "",
         "path": "/api/users"
-    },
+    }
 }
