@@ -52,7 +52,7 @@
     ],
     "creator": {
         "title": "Creators",
-        "subTitle": "Discover more videos from creators",
+        "subTitle": "",
         "posterRatio": "16*9",
         "filterToGetContent": "",
         "path": "/api/users"
