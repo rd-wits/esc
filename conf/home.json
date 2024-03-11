@@ -21,7 +21,7 @@
     "sections": [
         {
             "title": "Spotlight",
-            "description": "Discover our most popular content",
+            "description": "",
             "defaultItems": [
                 
             ],
@@ -31,7 +31,7 @@
         },
         {
             "title": "Popular",
-            "description": "Discover our most popular content",
+            "description": "",
             "defaultItems": [
                 
             ],
@@ -41,7 +41,7 @@
         },
         {
             "title": "New",
-            "description": "Discover our most popular content",
+            "description": "",
             "defaultItems": [
                 
             ],
