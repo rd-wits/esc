@@ -26,7 +26,7 @@
             "defaultItems": [
                 
             ],
-            "filterToGetContent": "{\"posters.0\": { \"$exists\": true }}",
+            "filterToGetContent": "{\"posters.0\": { \"$exists\": true }, {\"$ne\": \"external-link\"}}",
             "posterRatio": "9*16",
             "path": "/api/media/post"
         },
@@ -36,7 +36,7 @@
             "defaultItems": [
                 
             ],
-            "filterToGetContent": "{\"isPopular\": true}",
+            "filterToGetContent": "{\"isPopular\": true, {\"$ne\": \"external-link\"}}",
             "posterRatio": "16*9",
             "path": "/api/media/post"
         },
@@ -46,7 +46,7 @@
             "defaultItems": [
                 
             ],
-            "filterToGetContent": "{\"isNew\": true}",
+            "filterToGetContent": "{\"isNew\": true, {\"$ne\": \"external-link\"}}",
             "posterRatio": "16*9",
             "path": "/api/media/post"
         }
