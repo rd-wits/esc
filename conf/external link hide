@@ -1,0 +1,2 @@
+filter to hide external links 
+{\"$ne\": \"external-link\"}
