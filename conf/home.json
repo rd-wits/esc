@@ -51,12 +51,5 @@
             "posterRatio": "16*9",
             "path": "/api/media/post"
         }
-    ],
-    "creator": {
-        "title": "Creators",
-        "subTitle": "",
-        "posterRatio": "16*9",
-        "filterToGetContent": "",
-        "path": "/api/users"
-    }
+    ]
 }
