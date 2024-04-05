@@ -27,9 +27,9 @@
             "defaultItems": [
                 
             ],
-            "filterToGetContent": "{\"posters.0\": { \"$exists\": true }}",
+            "filterToGetContent": "",
             "posterRatio": "9*16",
-            "path": "/api/media/post"
+            "path": "/api/media/post/spotlight"
         },
         {
             "title": "Popular",
