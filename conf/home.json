@@ -17,8 +17,8 @@
     "helpEmail": "help@escape.ai",
     "forceBasicAuth": true,
     "carousel": {
-        "iphoneItems": ["https://customer-cm6j1xwjvhbjg990.cloudflarestream.com/c2352ae9cda809373966b28b78b4bc36/manifest/video.m3u8"],
-        "ipadItems": ["https://customer-cm6j1xwjvhbjg990.cloudflarestream.com/c2352ae9cda809373966b28b78b4bc36/manifest/video.m3u8"]
+        "iphoneItems": ["https://customer-cm6j1xwjvhbjg990.cloudflarestream.com/6dde054f18e08e6f4d30e94c9ee60fee/manifest/video.m3u8"],
+        "ipadItems": ["https://customer-cm6j1xwjvhbjg990.cloudflarestream.com/6dde054f18e08e6f4d30e94c9ee60fee/manifest/video.m3u8"]
     },
     "sections": [
         {
