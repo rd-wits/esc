@@ -32,22 +32,22 @@
             "path": "/api/media/post/spotlight"
         },
         {
-            "title": "Popular",
-            "description": "",
-            "defaultItems": [
-                
-            ],
-            "filterToGetContent": "{\"isPopular\": true}",
-            "posterRatio": "16*9",
-            "path": "/api/media/post"
-        },
-        {
-            "title": "New",
+            "title": "Ticker",
             "description": "",
             "defaultItems": [
                 
             ],
             "filterToGetContent": "{\"isNew\": true}",
+            "posterRatio": "16*9",
+            "path": "/api/media/post"
+        },
+        {
+            "title": "Original Fiction",
+            "description": "",
+            "defaultItems": [
+                
+            ],
+            "filterToGetContent": "{\"isPopular\": true}",
             "posterRatio": "16*9",
             "path": "/api/media/post"
         }
