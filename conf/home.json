@@ -8,7 +8,7 @@
     "pathForCreatorPosts":"/api/media/post",
     "filterForCreatorPosts":"{\"user\" : \"*user-id*\" }",
     "shareSheetSubject":"Escape AI: Experience the Future",
-    "shareSheetAppURL":"https://escape.ai",
+    "shareSheetAppURL":"https://staging.escape.ai",
     "tip":"",
     "termsURL":"/terms",
     "privacyURL":"/privacy-policy",
